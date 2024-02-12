@@ -32,10 +32,9 @@ fn main() {
         width: 40,
     };
 
-    let sq = Rectangle::square(10);
+    let sq = Rectangle.square(10);
 
     println!("The area of rectangle: {}", rect.area());
-    println!("The area of square: {}", sq.area());
 
     dbg!(&rect);
 
